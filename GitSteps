@@ -1,0 +1,24 @@
+1. 下载git desktop 安装文件至本地，安装（https://git-scm.com/download/win）
+2. 设置 用户名、邮箱  git config --global user.name xxxx
+                     git config --global .user.email xxxx
+                     git config user.name  查看
+                     git config user.email  查看
+
+3. 在本地生成ssh密钥：ssh-keygen -t rsa -C "\email"
+4. 添加密钥至ssh-agent：  ssh-agent bash
+                          ssh-add ~/.ssh/id_rsa
+
+
+
+
+登录github，将公钥加进去
+生成github仓库，clone至本地
+
+
+git clone http:xxxxx
+git add 。
+git commit -m "\message"
+git push
+
+
+git pull
